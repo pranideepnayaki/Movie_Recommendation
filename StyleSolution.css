@@ -1,0 +1,109 @@
+body {
+  background-color: #f0f2f5; /* Light gray background */
+  color: #333; /* Dark gray text */
+  font-family: "Arial", sans-serif; /* Modern, clean font */
+}
+
+#appTitle {
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  font-family: "Staatliches", sans-serif;
+  font-size: 60px;
+  color: #222; /* Darker text for better readability */
+}
+
+#genreForm,
+#playBtn {
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+  font-family: "Fredoka One", sans-serif;
+}
+
+#movieInfo {
+  width: 70%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* White background for the movie info */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#movieInfo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#moviePoster,
+#movieText {
+  width: 50%;
+  float: left;
+}
+
+img#moviePoster {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#movieText {
+  font-family: "Questrial", sans-serif;
+  color: #333;
+  line-height: 1.5;
+}
+
+#movieTitle,
+#movieOverview {
+  padding: 16px;
+}
+
+#playBtn {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #007bff; /* Professional blue */
+  color: #fff;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  border: 1px solid #ccc; /* Light border for select */
+  border-radius: 5px;
+}
+
+#likeOrDislikeBtns {
+  text-align: center;
+  margin: 20px auto;
+}
+
+#likeBtn,
+#dislikeBtn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+#likeBtn {
+  background-color: #28a745; /* Green */
+}
+
+#dislikeBtn {
+  background-color: #dc3545; /* Red */
+}
